@@ -78,7 +78,7 @@ harvest-trace/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/harvest-trace.git
+git clone https://github.com/P-N-S-U/harvest-trace.git
 cd harvest-trace
 ```
 
