@@ -48,17 +48,26 @@ Harvest Trace is a full-stack MERN application that bridges the gap between **fa
 ```
 harvest-trace/
 ├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
+│   ├── assets/
+│   ├── certificates/
+│   ├── config/
 │   ├── middleware/
+│   ├── models/
+│   ├── qrcodes/
+│   ├── routes/
+│   ├── uploads/
+│   ├── utils/
+│   ├── .env
 │   └── server.js
 ├── frontend/
+│   ├── public/
 │   ├── src/
+│   │   ├── assets/
 │   │   ├── components/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   └── App.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
 │   └── package.json
 └── README.md
 ```
