@@ -107,6 +107,14 @@ npm install
 npm run dev
 ```
 
+NOTE that you can concurrently run both frontend and backend using 
+```bash
+npm run dev
+```
+in backend folder as it inlcudes a script 
+"dev": "concurrently \"nodemon server.js\" \"cd ../frontend && npm run dev\""
+
+
 ---
 
 ## 🌍 Maps Integration
