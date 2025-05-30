@@ -1,0 +1,108 @@
+/* General Styles */
+.auth-container {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 3vw;
+    width: 50vw;
+    /* max-width: 450px; */
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    margin: 100px auto;
+}
+
+/* Toggle Buttons */
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.toggle-buttons .btn {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.toggle-buttons .btn-success {
+    background: #01c64b;
+    color: white;
+}
+
+.toggle-buttons .btn-light {
+    background: #f8f9fa;
+    color: black;
+}
+
+.toggle-buttons .btn:hover {
+    transform: scale(1.05);
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+    /* width: 30vw; */
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.btn-success {
+    background: #01c64b;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background: darkgreen;
+}
+
+/* Login Text */
+.login-text {
+    font-size: 14px;
+}
+
+.login-text a {
+    color: #01c64b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .auth-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .toggle-buttons .btn {
+        font-size: 14px;
+    }
+
+    .btn-success {
+        font-size: 14px;
+    }
+}
