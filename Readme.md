@@ -15,7 +15,6 @@ Harvest Trace is a full-stack MERN application that bridges the gap between **fa
 
 ### 👨‍🌾 For Farmers
 - Upload products with images and QR codes
-- Track product location using **Leaflet maps**
 - View buyers and manage listings
 
 ### 📍 Maps & Traceability
@@ -23,7 +22,7 @@ Harvest Trace is a full-stack MERN application that bridges the gap between **fa
 - Uses **OpenStreetMap API** to display:
   - Farmer's location
   - Product source traceability
-- QR codes scan to show **origin and transit information**
+- QR codes scan to show **origin and product details**
 
 ### 🔐 Authentication
 - Separate login/signup for Consumer and Farmer roles
@@ -143,10 +142,15 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 ## 📌 Key Functionalities
 
 - ✅ Cart system with backend synchronization
-- ✅ JWT-based authentication for Consumers & Farmers
+- ✅ JWT-based authentication for Consumers, Farmers & Admins
 - ✅ Leaflet + OpenStreetMap integration
 - ✅ QR code scanning and generation
 - ✅ Responsive design for mobile and desktop
+- ✅ Admin approval system for farmer verification
+- ✅ Digital certificate generation and delivery
+- ✅ Real-time analytics dashboard for admins
+- ✅ Document upload and management system
+- ✅ Multi-role authentication with role-based access control
 
 ---
 
@@ -172,7 +176,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ---
 
