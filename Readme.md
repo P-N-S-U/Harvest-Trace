@@ -200,5 +200,4 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 ## 📞 Contact
 
 For questions or support, please reach out:
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
+- GitHub: https://github.com/P-N-S-U
